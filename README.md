@@ -14,4 +14,17 @@ This repository contains Pytorch implementation for "[BiSyn-GAT+: Bi-Syntax Awar
    bash run_bash/run_MAMS.sh
    ```
 
-TBC.
+## Citation
+**Please kindly cite our paper if this paper and the code are helpful**
+```
+@inproceedings{Liang-etal-2022-bisyn,
+	title = "Bi{S}yn-{GAT}+: {B}i-{S}yntax {A}ware {G}raph {A}ttention {N}etwork for {A}spect-based {S}entiment {A}nalysis",
+	author = "Liang, Shuo  and
+	Wei, Wei  and
+	Mao, Xianling  and
+	Wang, Fei  and
+	He, Zhiyong",
+	booktitle = "Findings of the Association for Computational Linguistics",
+	year = "2022",
+}
+```
