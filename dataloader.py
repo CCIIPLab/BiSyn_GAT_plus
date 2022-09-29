@@ -86,14 +86,12 @@ class ABSA_Dataset(Dataset):
 
             adj_i_oneshot = head_to_adj_oneshot(dep_head, length, d['aspects'])
 
+            cd_adj = np.ones((length,length))
             if args.con_dep_conditional:
                 father = 1
                 if father in con_children and [con_mapnode[node] for node in con_children[father]].count('S[N]') > 1 and con_mapnode[father] == 'S[N]':
                     cd_span = spans[node2layerid[father]+1]
                     cd_adj = get_conditional_adj(father, length, cd_span, con_children, con_mapnode)
-
-                else:
-                    cd_adj = np.ones((length,length))
 
             adj_i_oneshot = adj_i_oneshot * cd_adj 
             
