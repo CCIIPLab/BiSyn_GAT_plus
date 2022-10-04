@@ -3,6 +3,13 @@
 
 This repository contains Pytorch implementation for "[BiSyn-GAT+: Bi-Syntax Aware Graph Attention Network for Aspect-based Sentiment Analysis](https://arxiv.org/abs/2204.03117)" (Findings of ACL 2022)
 
+## Requirements
+```
+python = 3.7
+pytorch >= 1.7
+transformers >= 4.3.3 
+```
+
 ## Get Start
 1. Prepare data
    
