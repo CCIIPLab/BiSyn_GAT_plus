@@ -13,7 +13,7 @@ transformers >= 4.3.3
 ## Get Start
 1. Prepare data
    
-   We follow the dataset setting in https://github.com/muyeby/RGAT-ABSA, and provide the parsed data at directory **data**
+   We follow the dataset setting in https://github.com/muyeby/RGAT-ABSA, and provide the parsed data at directory **data/V2** (or, you can use  ***preprocess_file*** function in ```parse_tree.py``` to preprocess on your own)
 
 2. Training
    
